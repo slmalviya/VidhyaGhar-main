@@ -1,0 +1,22 @@
+.course-box
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+}
+
+.course-box .course
+{
+    height: 321px;
+    width: 330px;
+    margin: 45px;
+    flex-wrap: wrap;
+}
+
+.course-box .course img
+{
+    border: 10px solid black;
+    width: 310px;
+    height: 300px;
+}

@@ -1,0 +1,203 @@
+.home{
+    /* background-image: url('https://images.pexels.com/photos/5088008/pexels-photo-5088008.jpeg?cs=srgb&dl=pexels-olia-danilevich-5088008.jpg&fm=jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%; */
+  
+    @media (max-width:650px) {
+      width: 100%;
+      height: 900px;
+    }
+  }
+  .nav{
+    background-color: #000;
+    color: azure;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+  }
+  .nav .col1,
+  .nav .col2{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  .nav .col2 button{
+   margin: 30px;
+   background:transparent;
+   font-size: 20px;
+   font-weight: bold;
+   border: 2px solid transparent;
+   cursor: pointer;
+   color: azure;
+  }
+  .nav .col2 button:hover{
+    opacity: 0.2;
+  }
+  #menu{
+    background-color: #000;
+    border-radius: 30px;
+    padding: 20px;
+    margin:30px;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  #item:hover{
+    /* opacity: 0.4;  */
+    background-color: rgb(134, 134, 134);
+    text-decoration: underline 3px solid azure;
+  
+  }
+  
+  
+  .nav .col2 hr{
+  height: 50px;
+  }
+  .nav .col2 a{
+    padding: 20px 24px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: azure;
+   display: flex;
+   justify-content: space-between;
+  }
+  .home .content{
+    background-color: azure;
+   padding: 10px;
+  
+   /* width: 100%; */
+  }
+  .home .content ul{
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+   
+    justify-content: space-around;
+    list-style:none;
+    @media (max-width:650px) {
+      flex-direction: column;
+      justify-content: space-between;
+      font-size: 25px;
+      font-weight: bolder;
+      
+    }
+  }
+  .home .content li #link{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+  
+  }
+  .home .head{
+    
+    /* margin: 50px; */
+    height: 600px;
+   background:transparent;
+   border: 2px solid transparent;
+   border-radius: 10px;
+   font-size: 25px;
+   color: rgb(249, 236, 236);
+   background-image: url('./images/backg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+ 
+    text-shadow: 3px 3px rgb(22, 17, 17); 
+
+  }
+  .head h1{
+    color:white;
+    font-size: 90px;
+    text-shadow: 3px 3px rgb(53, 48, 48);
+  }
+  .home .about{
+    margin: 0px;
+    width: 100%;
+  }
+  .home .about .col{
+   
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-betweenk;
+    font-size: 17px;
+    text-align:center;
+    width: fit-content;
+  }
+  .home .about .col .cot{
+    padding: 10px 50px;
+    margin: 0px 50px;
+  }
+  #about-logo
+  {
+    width: 200px;
+    height: 200px;
+  }
+  #school1{
+    @media (max-width:650px){
+      width: 400px;
+      height: 300px;
+      
+    }
+  }
+  .home .about .col h2{
+    text-align: center;
+  }
+  .home .about .col ul{
+    list-style:none;
+  }
+  .home .about .col li #link{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    background-color: #000;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+
+    .carousel 
+  {
+    width: 500px;
+  }
+
+
+
+
+  
+  .footer{
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background-color: #000;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+    color: azure;
+  }
+  .footer a{
+    text-decoration: none;
+    color: azure;
+   display: flex;
+   justify-content: space-between;
+  }
+  .footer .logo .media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .foot{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#333;
+    text-align: center;
+    padding: 3px;
+    color: white;
+  }

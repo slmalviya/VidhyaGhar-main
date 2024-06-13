@@ -1,0 +1,7 @@
+.notification-box
+{
+    height: fit-content;
+    margin: 30px;
+    border: 5px double black;
+    text-align: center;
+}

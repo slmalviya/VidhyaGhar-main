@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+}
+
+.about {
+    /* margin: 100px; */
+    /* background-color: white; */
+    border: 2px solid transparent;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @media (max-width:650px) {
+        width: fit-content;
+    }
+}
+
+.about .col1 li {
+    list-style: square;
+}
+
+.about .col1 h3 {
+    color: white;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+.about .col1 h1 {
+    color: #000;
+    font-family: 'Times New Roman';
+
+}
+
+.about .col1 p {
+    color: #333;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+
+.about .form button {
+    margin: 20px;
+    background-color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #333;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+
+    color: azure;
+}
+
+.about .form button:hover {
+    box-shadow: 1px 1px 10px 2px #000;
+}
+
+.about .col1 h5 {
+    color: #000;
+    font-weight: lighter;   
+}
+
+
+.about .form input[type="text"],
+.about .form input[type="email"]
+{
+    padding: 20px;
+    font-size: 15px;
+    width: 500px;
+    border-radius: 10px;
+    color: black;
+
+    @media (max-width:650px) {
+        width: 100%;
+        margin: 20px;
+    }
+}
+
+
+.about .form input[type="text"]::placeholder,
+
+.about .form input[type="email"]::placeholder
+{
+    color: black;
+} 
